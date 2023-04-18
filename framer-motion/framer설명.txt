@@ -1,0 +1,11 @@
+설치
+    - npm install framer-motion
+
+Import
+    - import { motion } from "framer-motion"
+
+
+
+initial : 애니메이션이 들어가기 전 초기상태
+animate : 애니메이션 효과
+variants : initial과 animate의 상태를 정리해놓은 오브젝트.

@@ -1,9 +1,14 @@
-import { Button } from "./Emotion/button";
+// import { Button } from "./Emotion/button";
+import List from "./Emotion/clickAnimate";
+import MenuBtn from "./MenuBtn/menuBtn";
 
 function App() {
   return (
     <>
-      <Button />
+      {/* <Button /> */}
+      {/* <ClickAnimate /> */}
+      <List />
+      <MenuBtn />
     </>
   );
 }
