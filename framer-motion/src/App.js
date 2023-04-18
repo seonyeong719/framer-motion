@@ -1,5 +1,5 @@
 // import { Button } from "./Emotion/button";
-import List from "./Emotion/clickAnimate";
+// import List from "./Emotion/clickAnimate";
 import MenuBtn from "./MenuBtn/menuBtn";
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
     <>
       {/* <Button /> */}
       {/* <ClickAnimate /> */}
-      <List />
+      {/* <List /> */}
       <MenuBtn />
     </>
   );

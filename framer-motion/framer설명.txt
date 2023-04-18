@@ -6,6 +6,21 @@ Import
 
 
 
-initial : 애니메이션이 들어가기 전 초기상태
-animate : 애니메이션 효과
-variants : initial과 animate의 상태를 정리해놓은 오브젝트.
+* initial : 애니메이션이 들어가기 전 초기상태
+* animate : 애니메이션 효과
+* variants : initial과 animate의 상태를 정리해놓은 오브젝트.
+
+========================================================================
+
+  variants={{
+          open: { clipPath: "inset(0% 0% 0% 0% round 10px)" },
+          // inset 에 % -> 는 (상, 우, 하, 좌) 순으로 공백? 공간?을 주는 용도. round는 border-radius 와 같은 개념. 
+
+          closed: { clipPath: "inset(10% 50% 90% 50% round 10px)" },
+          // closed 될 때 어느 위치로 없어지는지 설정 해주는 코드.
+        }}
+
+
+  * staggerChildren : 태그요소 하나씩 순차적으로 뜨는? 기능
+  * delayChildren : 딜레이 시키는 기능.
+
